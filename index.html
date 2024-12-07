@@ -21,105 +21,152 @@
 
 <body>
   <div class="container">
-    <div class="snow-container" id="snowContainer"></div>
-
-    <div class="profile">
-      <img src="https://cdn.arifzyn.tech/f/la7464cv.jpg" alt="Profile Picture">
-      <h1>Arifzyn XD</h1>
-      <p>Front-end Developer | Back-end Developer</p>
-      <p>Anime, Manga & Light Novel Enthusiast 📚</p>
-      <p>"おはよう! I'm Arifzyn, web developer and content creator who is always looking for inspiration from the world of anime and technology. Let's create something amazing together! ✨"</p>
-    </div>
-
-    <div class="links">
-      <a href="https://arifzyn.tech" class="link" style="animation-delay: 0.1s">
-        <i class="fas fa-globe"></i>
-        Personal Website
+    <!--
+    <div class="sidebar">
+      <a href="#" class="sidebar-button active">
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.42 10.18L12.71 2.3a1 1 0 0 0-1.42 0l-7.71 7.89A2 2 0 0 0 3 11.62V20a2 2 0 0 0 1.89 2h14.22A2 2 0 0 0 21 20v-8.38a2.07 2.07 0 0 0-.58-1.44M10 20v-6h4v6Zm9 0h-3v-7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v7H5v-8.42l7-7.15l7 7.19Z" />
+          </svg>
+        </span>
+        <span class="text">Home</span>
       </a>
-      <a href="https://shop.arifzyn.tech" class="link" style="animation-delay: 0.2s">
-        <i class="fas fa-store"></i>
-        Shop Website
+      <a href="#" class="sidebar-button">
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M4 21q-.825 0-1.412-.587T2 19V8q0-.825.588-1.412T4 6h4V4q0-.825.588-1.412T10 2h4q.825 0 1.413.588T16 4v2h4q.825 0 1.413.588T22 8v11q0 .825-.587 1.413T20 21zm0-2h16V8H4zm6-13h4V4h-4zM4 19V8z" />
+          </svg>
+        </span>
+        <span class="text">My Work</span>
       </a>
-      <a href="https://api.arifzyn.tech" class="link" style="animation-delay: 0.3s">
-        <i class="fas fa-code"></i>
-        REST API
+      <a href="#" class="sidebar-button">
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 21l-3.2-2.85q-1.8-1.625-3.088-2.9t-2.124-2.4t-1.225-2.175t-.388-2.2q0-2.35 1.575-3.912T7.475 3q1.3 0 2.475.55T12 5.1q.875-1 2.05-1.55T16.525 3q2.35 0 3.925 1.563t1.575 3.912q0 1.15-.387 2.2t-1.225 2.175t-2.125 2.4t-3.088 2.9zM4.275 10h15.45q.15-.4.225-.775t.075-.75q0-1.5-1.037-2.488T16.525 5q-1.175 0-2.162.688T12.6 7.5h-1.2q-.775-1.125-1.762-1.812T7.475 5q-1.425 0-2.462.988T3.975 8.474q0 .375.075.75t.225.775m2.55 3.5h10.35q.4-.425.725-.788t.6-.712h-13q.275.35.6.713t.725.787M12 18.3q.9-.8 1.688-1.487t1.437-1.313h-6.25q.65.625 1.438 1.313T12 18.3m0-8.3" />
+          </svg>
+        </span>
+        <span class="text">Donate</span>
       </a>
-      <a href="https://youtube.com/@arifzxa19?si=b6iwH3qqIGFF1oUp" class="link" style="animation-delay: 0.4s">
-        <i class="fab fa-youtube"></i>
-        YouTube Channel
+      <a href="#" class="sidebar-button">
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 17q.425 0 .713-.288T13 16v-4q0-.425-.288-.712T12 11t-.712.288T11 12v4q0 .425.288.713T12 17m0-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 13q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8" />
+          </svg>
+        </span>
+        <span class="text">About</span>
       </a>
-      <a href="https://instagram.com/@arifzxa19" class="link" style="animation-delay: 0.5s">
-        <i class="fab fa-instagram"></i>
-        Instagram
-      </a>
-    </div>
-
-    <div class="social-icons">
-      <a href="https://www.facebook.com/profile.php?id=61566863086704" style="animation-delay: 0.7s">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://x.com/ArifzynXD" style="animation-delay: 0.8s">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/Arifzyn19" style="animation-delay: 0.9s">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://tiktok.com/@arifzyn.tech" style="animation-delay: 1s">
-        <i class="fab fa-tiktok"></i>
+      <a href="#" class="sidebar-button">
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12.94 22h-1.89a1.68 1.68 0 0 1-1.68-1.68v-1.09a.34.34 0 0 0-.22-.29a.38.38 0 0 0-.41 0l-.74.8a1.67 1.67 0 0 1-2.37 0L4.26 18.4a1.66 1.66 0 0 1-.5-1.19a1.72 1.72 0 0 1 .5-1.21l.74-.74a.34.34 0 0 0 0-.37c-.06-.15-.16-.26-.3-.26H3.68A1.69 1.69 0 0 1 2 12.94v-1.89a1.68 1.68 0 0 1 1.68-1.68h1.09a.34.34 0 0 0 .29-.22a.38.38 0 0 0 0-.41L4.26 8a1.67 1.67 0 0 1 0-2.37L5.6 4.26a1.65 1.65 0 0 1 1.18-.5a1.72 1.72 0 0 1 1.22.5l.74.74a.34.34 0 0 0 .37 0c.15-.06.26-.16.26-.3V3.68A1.69 1.69 0 0 1 11.06 2H13a1.68 1.68 0 0 1 1.68 1.68v1.09a.34.34 0 0 0 .22.29a.38.38 0 0 0 .41 0l.69-.8a1.67 1.67 0 0 1 2.37 0l1.37 1.34a1.67 1.67 0 0 1 .5 1.19a1.63 1.63 0 0 1-.5 1.21l-.74.74a.34.34 0 0 0 0 .37c.06.15.16.26.3.26h1.09A1.69 1.69 0 0 1 22 11.06V13a1.68 1.68 0 0 1-1.68 1.68h-1.09a.34.34 0 0 0-.29.22a.34.34 0 0 0 0 .37l.77.77a1.67 1.67 0 0 1 0 2.37l-1.31 1.33a1.65 1.65 0 0 1-1.18.5a1.72 1.72 0 0 1-1.19-.5l-.77-.74a.34.34 0 0 0-.37 0c-.15.06-.26.16-.26.3v1.09A1.69 1.69 0 0 1 12.94 22m-1.57-2h1.26v-.77a2.33 2.33 0 0 1 1.46-2.14a2.36 2.36 0 0 1 2.59.47l.54.54l.88-.88l-.54-.55a2.34 2.34 0 0 1-.48-2.56a2.33 2.33 0 0 1 2.14-1.45H20v-1.29h-.77a2.33 2.33 0 0 1-2.14-1.46a2.36 2.36 0 0 1 .47-2.59l.54-.54l-.88-.88l-.55.54a2.39 2.39 0 0 1-4-1.67V4h-1.3v.77a2.33 2.33 0 0 1-1.46 2.14a2.36 2.36 0 0 1-2.59-.47l-.54-.54l-.88.88l.54.55a2.39 2.39 0 0 1-1.67 4H4v1.26h.77a2.33 2.33 0 0 1 2.14 1.46a2.36 2.36 0 0 1-.47 2.59l-.54.54l.88.88l.55-.54a2.39 2.39 0 0 1 4 1.67Z" />
+            <path fill="currentColor" d="M12 15.5a3.5 3.5 0 1 1 3.5-3.5a3.5 3.5 0 0 1-3.5 3.5m0-5a1.5 1.5 0 1 0 1.5 1.5a1.5 1.5 0 0 0-1.5-1.5" />
+          </svg>
+        </span>
+        <span class="text">Settings</span>
       </a>
     </div>
+-->
+    <div class="main-container">
+      <div class="snow-container" id="snowContainer"></div>
 
-    <footer class="footer">
-      <div class="footer-wave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" fill="rgba(255, 255, 255, 0.1)">
-          <path d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
+      <div class="profile">
+        <img src="https://cdn.arifzyn.tech/f/la7464cv.jpg" alt="Profile Picture">
+        <h1>Arifzyn XD</h1>
+        <p>Front-end Developer | Back-end Developer</p>
+        <p>Anime, Manga & Light Novel Enthusiast 📚</p>
+        <p>"おはよう! I'm Arifzyn, web developer and content creator who is always looking for inspiration from the world of anime and technology. Let's create something amazing together! ✨"</p>
       </div>
 
-      <div class="footer-content">
-        <div class="footer-stats">
-          <div class="stat-item">
-            <span class="stat-number">100+</span>
-            <span class="stat-label">Friend</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-number">5+</span>
-            <span class="stat-label">Projects</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-number">5+</span>
-            <span class="stat-label"></span>
-          </div>
-        </div>
-
-        <div class="footer-badges">
-          <span class="footer-badge">
-            <i class="fas fa-code"></i> Web Developer
-          </span>
-          <span class="footer-badge">
-            <i class="fas fa-camera"></i> Content Creator
-          </span>
-          <span class="footer-badge">
-            <i class="fas fa-heart"></i> Anime Fan
-          </span>
-        </div>
-
-        <div class="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Contact</a>
-        </div>
-
-        <div class="footer-logo">
+      <div class="links">
+        <a href="https://arifzyn.tech" class="link" style="animation-delay: 0.1s">
+          <i class="fas fa-globe"></i>
+          Personal Website
+        </a>
+        <a href="https://shop.arifzyn.tech" class="link" style="animation-delay: 0.2s">
+          <i class="fas fa-store"></i>
+          Shop Website
+        </a>
+        <a href="https://api.arifzyn.tech" class="link" style="animation-delay: 0.3s">
           <i class="fas fa-code"></i>
-          <span>Arifzyn.</span>
+          REST API
+        </a>
+        <a href="https://youtube.com/@arifzxa19?si=b6iwH3qqIGFF1oUp" class="link" style="animation-delay: 0.4s">
+          <i class="fab fa-youtube"></i>
+          YouTube Channel
+        </a>
+        <a href="https://instagram.com/@arifzxa19" class="link" style="animation-delay: 0.5s">
+          <i class="fab fa-instagram"></i>
+          Instagram
+        </a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61566863086704" style="animation-delay: 0.7s">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://x.com/ArifzynXD" style="animation-delay: 0.8s">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/Arifzyn19" style="animation-delay: 0.9s">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://tiktok.com/@arifzyn.tech" style="animation-delay: 1s">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-wave">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" fill="rgba(255, 255, 255, 0.1)">
+            <path d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
         </div>
 
-        <p class="footer-text">
-          © 2024 Arifzyn. All rights reserved.
-        </p>
-      </div>
-    </footer>
+        <div class="footer-content">
+          <div class="footer-stats">
+            <div class="stat-item">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Friend</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Development</span>
+            </div>
+          </div>
+
+          <div class="footer-badges">
+            <span class="footer-badge">
+              <i class="fas fa-code"></i> Web Developer
+            </span>
+            <span class="footer-badge">
+              <i class="fas fa-camera"></i> Content Creator
+            </span>
+            <span class="footer-badge">
+              <i class="fas fa-heart"></i> Anime Fan
+            </span>
+          </div>
+
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer-logo">
+            <i class="fas fa-code"></i>
+            <span>Arifzyn.</span>
+          </div>
+
+          <p class="footer-text">
+            © 2024 Arifzyn. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
   </div>
 
   <script src="./js/main.js"></script>

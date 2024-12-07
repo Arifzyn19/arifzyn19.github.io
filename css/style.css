@@ -27,6 +27,13 @@ body::before {
 }
 
 .container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.main-container {
   max-width: 600px;
   width: 100%;
   padding: 30px;
@@ -35,6 +42,52 @@ body::before {
   border-radius: 20px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-button {
+  background: none;
+  border: none;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-button .icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+  fill: #000;
+}
+
+.sidebar-button .text {
+  font-size: 10px;
+  display: block;
+  margin-top: 3px;
+}
+
+.sidebar-button.active {
+  color: #0056b3;
+}
+
+.sidebar-button.active .icon {
+  fill: #0056b3;
 }
 
 .profile {
