@@ -6,7 +6,6 @@
 }
 
 body {
-  background: url('https://cdn.arifzyn.tech/f/04i4wdqj.jpg') center/cover fixed;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -22,7 +21,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: hsla(314, 49%, 90%, 0.98);
   z-index: -1;
 }
 
@@ -42,52 +41,6 @@ body::before {
   border-radius: 20px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-.sidebar {
-  width: 100%;
-  background-color: #f9f9f9;
-  color: #000;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar-button {
-  background: none;
-  border: none;
-  color: #000;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.sidebar-button .icon {
-  width: 24px;
-  height: 24px;
-  margin-bottom: 5px;
-  fill: #000;
-}
-
-.sidebar-button .text {
-  font-size: 10px;
-  display: block;
-  margin-top: 3px;
-}
-
-.sidebar-button.active {
-  color: #0056b3;
-}
-
-.sidebar-button.active .icon {
-  fill: #0056b3;
 }
 
 .profile {
@@ -129,14 +82,14 @@ body::before {
 }
 
 .profile h1 {
-  color: white;
+  color: hsla(314, 4%, 17%, 1);
   font-size: 2rem;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .profile p {
-  color: rgba(255, 255, 255, 0.9);
+  color: hsla(314, 4%, 12%, 1);
   font-size: 1.1rem;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -149,10 +102,10 @@ body::before {
 }
 
 .link {
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #f7a8b8, #f8b0d1, #f9c9d3); /* Gradien pink lembut */
   padding: 15px 20px;
   border-radius: 12px;
-  color: white;
+  color: rgba(45, 41, 44, 1); 
   text-decoration: none;
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -191,7 +144,7 @@ body::before {
 .link i {
   margin-right: 15px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #f5f5dc; /* Warna beige yang lembut untuk ikon */
 }
 
 .social-icons {
@@ -205,7 +158,7 @@ body::before {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(38, 37, 38, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +271,7 @@ body::before {
 }
 
 .footer-text {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(12, 9, 11, 1);
   font-size: 0.9rem;
   line-height: 1.6;
 }
@@ -393,7 +346,7 @@ body::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: rgba(83, 75, 81, 1);
 }
 
 .stat-number {
