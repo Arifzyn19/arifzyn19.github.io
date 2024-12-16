@@ -100,10 +100,11 @@ body::before {
 }
 
 .link {
-  background: linear-gradient(135deg, #f7a8b8, #f8b0d1, #f9c9d3); /* Gradien pink lembut */
+  background: linear-gradient(135deg, #f7a8b8, #f8b0d1, #f9c9d3);
+  /* Gradien pink lembut */
   padding: 15px 20px;
   border-radius: 12px;
-  color: rgba(45, 41, 44, 1); 
+  color: rgba(45, 41, 44, 1);
   text-decoration: none;
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -139,18 +140,23 @@ body::before {
 .link i {
   margin-right: 15px;
   font-size: 1.3rem;
-  color: #f5f5dc; /* Warna beige yang lembut untuk ikon */
+  color: #f5f5dc;
+  /* Warna beige yang lembut untuk ikon */
 }
 
 /* Animasi klik */
 @keyframes clickAnimation {
   0% {
     transform: scale(1);
-    background: rgba(255, 255, 255, 0.4); /* Saat klik */
+    background: rgba(255, 255, 255, 0.4);
+    /* Saat klik */
   }
+
   50% {
-    transform: scale(0.98) translateX(10px); /* Pergeseran ke kanan */
+    transform: scale(0.98) translateX(10px);
+    /* Pergeseran ke kanan */
   }
+
   100% {
     transform: scale(1);
   }
@@ -167,6 +173,7 @@ body::before {
     transform: translateY(10px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
@@ -178,6 +185,8 @@ body::before {
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+  flex-wrap: wrap;
+  /* Agar ikon terbalut jika ruangnya terbatas */
 }
 
 .social-icons a {
@@ -199,6 +208,28 @@ body::before {
 .social-icons a:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-3px) rotate(360deg);
+}
+
+@media screen and (max-width: 768px) {
+  .social-icons {
+    gap: 15px;
+  }
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 @keyframes rotate {
